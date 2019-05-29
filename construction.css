@@ -1,0 +1,42 @@
+body {
+  background:linear-gradient(to left, #FF512F , #DD2476);
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+  font-family: Lato, serif;
+}
+
+* { color:#fff; text-decoration: none;}
+
+#particles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.task {
+  position: relative;
+
+  overflow: hidden;
+  cursor: pointer;
+  
+  perspective: 800px;
+  transform-style: preserve-3d;
+}
+
+.abstract,
+.details {
+  width: 100%;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.abstract {
+  /*//z-index: 10;*/
+  transition: .3s ease all;
+}
+
+footer{
+    padding-top:20em;
+}
